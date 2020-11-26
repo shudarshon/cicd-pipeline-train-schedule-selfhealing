@@ -27,7 +27,7 @@ pipeline {
         }
         stage('Push Docker Image') {
             when {
-                branch 'masterx'
+                branch 'master'
             }
             steps {
                 script {
